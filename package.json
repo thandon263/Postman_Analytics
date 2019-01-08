@@ -1,0 +1,26 @@
+{
+  "name": "Postman Analytics",
+  "version": "1.2.10",
+  "description": "This a postman analytics gathering function. Get results and average of time taken by the requests",
+  "main": "getPostmanAnalytics.js",
+  "bin": {
+    "average_calculator_postman_runner": "util.js"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node getPostmanAnalytics.js"
+  },
+  "keywords": [
+    "analytics",
+    "postman",
+    "postman runner",
+    "get results",
+    "newman",
+    "newman-stub"
+  ],
+  "author": "Thando Ncube",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
