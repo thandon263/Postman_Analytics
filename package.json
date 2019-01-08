@@ -1,6 +1,6 @@
 {
   "name": "postmen-analytix",
-  "version": "1.2.10",
+  "version": "1.2.12",
   "description": "This a postman analytics gathering function. Get results and average of time taken by the requests",
   "main": "getPostmanAnalytics.js",
   "bin": {

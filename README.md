@@ -7,12 +7,16 @@ This a postman analytics gathering function. Get results and average of time tak
 
 Install the module using `npm install pm-runner-info` andd then import the module into any folder on your computer and implement the pm-runner-info module to help with your automation for api-level unit tests results. Just add the results from your postman runner.
 
+```shell
+    npm install postmen-analytix
+```
+
 ## Getting Started
 When you are working with pm-runner-info, I guess you should have atleast written some tests in your collection. So before you import your collection write some tests inside postman. Download the results from postman runner and add them to your project and then
 
 ```javascript
     
-    pm-runner-info( collection-results )
+    pm-analytix( collection-results )
     
     # example response 
     /*
