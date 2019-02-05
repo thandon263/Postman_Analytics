@@ -34,14 +34,4 @@ function getPostmanAnalytics(collection) {
     return results
 }
 
-// var total = createTotal().reduce(reducer);
-// var average = total/createTotal().length;
-// Average from the results;
-/*var data =*/ 
-
-// fs.writeFileSync('upcsList.js', data)
-
-// createTotal()
-// console.log("The average time taken: ", average);
-
 module.exports = getPostmanAnalytics

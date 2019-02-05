@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const postmanAnalytics = require("../getPostmanAnalytics")
+
+const collection = require('../sample/S&G Collection 2.postman_test_runNEW.json')
+// var total = createTotal().reduce(reducer);
+// var average = total/createTotal().length;
+// Average from the results;
+/*var data =*/ 
+postmanAnalytics(collection)
