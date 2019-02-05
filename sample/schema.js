@@ -4,5 +4,5 @@ module.exports = {
     fail: 0,
     totalTime: 0,
     averageTime: 0,
-    date: new Date
+    date: new Date()
 }
